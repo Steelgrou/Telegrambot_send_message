@@ -1,0 +1,38 @@
+/* Uzmobile */
+#myForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
+
+label {
+  color: #314755;
+  font-weight: 600;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#Plus {
+  padding: 25px 0;
+}
